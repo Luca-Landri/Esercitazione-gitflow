@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+
+.background {
+    background-image: url("../Assets/Sfondino.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
