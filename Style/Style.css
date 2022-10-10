@@ -96,6 +96,54 @@ nav {
     display: none;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.title h1 {
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h1::before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 5px;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 2;
+}
+
+.title h1::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 5px;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 2;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px 40px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
 
     
