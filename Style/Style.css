@@ -29,7 +29,9 @@ nav {
 
 .options {
     display: flex;
+    transition: all 0.5s ease-in-out;
 }
+
 
 .options ul {
     display: flex;
@@ -109,9 +111,10 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-    .options {
-        display: none;
-    }
+}
+
+.hidden {
+    display: none;
 }
 
 
