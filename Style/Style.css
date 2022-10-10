@@ -11,3 +11,32 @@
     background-attachment: fixed;
     height: 100vh;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 10vh;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.options ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.options a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0 1rem;
+}
