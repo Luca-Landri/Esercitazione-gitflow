@@ -160,6 +160,14 @@ nav {
     color: #000;
 }
 
+/*media query for mobile*/
+
+@media screen and (max-width: 768px) {
+    .title h1 {
+        font-size: 2.8rem;
+    }
+
+}
 
     
 
