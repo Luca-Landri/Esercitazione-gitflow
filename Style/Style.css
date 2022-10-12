@@ -9,6 +9,11 @@
     src: url(/Fonts/Oswald-Regular.ttf);
   }
 
+@font-face {
+    font-family: Roboto-Mono-Bold;
+    src: url(/Fonts/RobotoMono-Bold.ttf);
+  }
+
 
 .background {
     background-image: url("../Assets/Sfondino.png");
@@ -106,10 +111,11 @@ nav {
 
 .title h1 {
     font-size: 4.7rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto-Mono-Bold", sans-serif;
     color: #fff;
     text-align: center;
     margin-bottom: 20px;
+    line-height: 74px;
 }
 
 /*do lines after and before the title */
@@ -117,7 +123,7 @@ nav {
     content: "";
     display: block;
     width: 80%;
-    margin: 20px auto 0 auto;
+    margin: 34px auto 0 auto;
     height: 5px;
     background-color: #fff;
 }
@@ -128,7 +134,7 @@ nav {
     width: 80%;
     height: 5px;
     background-color: #fff;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 34px auto;
 }
 
 .hero-button {
