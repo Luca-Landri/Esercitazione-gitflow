@@ -173,6 +173,13 @@ nav {
         font-size: 2.8rem;
     }
 
+    .title h1::after {
+        margin: 10px auto 0 auto;
+    }
+    
+    .title h1::before {
+        margin: 0 auto 10px auto;
+    }
 }
 
 footer {
@@ -180,4 +187,5 @@ footer {
     justify-content: center;
     align-items: center;
     height: 10vh;
+    gap: 34px;
 }
